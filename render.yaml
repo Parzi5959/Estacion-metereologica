@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: estacion-metereologica
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python servidor.py
+    runtime: python
+    region: oregon
+    branch: main
